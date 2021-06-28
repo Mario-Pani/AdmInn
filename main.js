@@ -21,7 +21,7 @@ app.on ("ready", function(){
         }
     })
     //cargar html
-    loginwindow.loadURL("file://" + __dirname + "/html/login.html")
+    loginwindow.loadURL("file://" + __dirname + "/html/index.html")
     //cuando el html sea cargado y la ventana este lista para mostrarse
     loginwindow.once("ready-to-show",function(){
         loginwindow.show()
