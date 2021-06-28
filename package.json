@@ -1,0 +1,28 @@
+{
+  "name": "adminn",
+  "version": "1.0.0",
+  "description": "This is the GitHub of the Drawings",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mario-Pani/AdmInn.git"
+  },
+  "keywords": [
+    "Aminn",
+    "drawings",
+    "github",
+    "tool"
+  ],
+  "author": "Mario Paniagua",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mario-Pani/AdmInn/issues"
+  },
+  "homepage": "https://github.com/Mario-Pani/AdmInn#readme",
+  "devDependencies": {
+    "electron": "^13.1.4"
+  }
+}
