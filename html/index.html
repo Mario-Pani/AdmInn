@@ -3,8 +3,6 @@
     <head>
         <meta charset ="UTF-8">
         <title>AdmInn</title>
-
-
         <!-- https://fonts.google.com/icons -->
         <!-- https://material.io/resources/icons/?style=baseline -->
         <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
@@ -12,7 +10,6 @@
         <!-- https://material.io/resources/icons/?style=outline -->
         <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
         rel="stylesheet">
-
         <!-- https://material.io/resources/icons/?style=round -->
         <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round"
         rel="stylesheet">
@@ -20,17 +17,39 @@
         <!-- https://material.io/resources/icons/?style=sharp -->
         <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp"
         rel="stylesheet">
-
         <!-- https://material.io/resources/icons/?style=twotone -->
         <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone"
         rel="stylesheet">
         <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
-        <div class="sidebar">
-            <div class="sidebar-brand">
-                <h2><span class="material-icons-outlined">bubble_chart</span> AdmInn</h2> 
-            </div>
-        </div>        
+        <div id="outer_container">
+            <div id="sidebar">
+                <h2><span class="material-icons-outlined">polymer</span> AdmInn</h2>
+                <div class="sidebar-menu">
+                    <ul class="navbar">
+                        <li>
+                            <a href="../html/" class="btn active"><span class="material-icons-round">home</span>Home</a>
+                        </li>
+                        <li>
+                            <a href="../html/templates.html" class="btn"><span class="material-icons-round">mediation</span>Templates</a>
+                        </li>
+                        <li>
+                            <a href="../html/TTools.html" class="btn"><span class="material-icons-round">engineering</span>Tools</a>
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+            <div id="content">
+                <header>
+                    <h2>
+                        <label for="nav-toggle">
+                            <span class="material-icons">menu_open</span>
+                        </label>
+                        Dashboard
+                    </h2>
+                </header>
+            </div>       
+        </div>
     </body>
 </html>
