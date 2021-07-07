@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+:root{
+    --main-darkness: rgb(27, 82, 134);
+    --main-light: rgb(50, 144, 233);
+    --Logo-color: rgb(163, 40, 40);
+}
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    font-family: "Poppins", sans-serif;
+}
+
+#outer_container{
+    background:#ccc;
+    display: flex;
+}
+#content{
+    background: white;
+    display:table-row;
+    width: 100%;
+    header{
+        display: flex;
+        height: 4rem;
+        align-items: center;
+        box-shadow:0 10px 10px 0 rgba(0, 0, 0, 0.1);
+        h2{
+            display: flex;
+            padding-left: .5rem;
+            color: var(--main-darkness);
+            align-items: center;
+            cursor:default;
+            label[for=nav-toggle]{
+                display: flex;
+                padding-right: 1rem;
+                &:hover{
+                    color: red;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+#sidebar{
+    background: var(--main-light);
+    width: 17rem;
+    h2{
+        display: flex;
+        align-items: center;
+        padding-bottom: 1rem;
+        color: white;
+        span{
+            display: flexbox;
+            align-items: center;
+            padding-left:1rem ;
+            padding-right: .5rem;
+            color: var(--Logo-color);
+            font-size: 2rem;
+        }
+    }
+    a{
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+        color: white;
+        border-radius: 3rem 0rem 0rem 3rem;
+        height: 3rem;
+        &:hover{
+            color: var(--main-light);
+            background: white;
+        }
+    }
+    ul{
+        width: auto;
+        height: 100vh;
+        display:list-item;
+        padding: 0rem;
+        font-size: 1.5rem;
+        list-style: none;
+        li{
+            display:block;
+            padding-left: .5rem;
+            padding-bottom: 2rem;
+            span{
+                display: flex;
+                align-items: center;
+                padding-right: 1rem;
+                padding-left: .5rem;
+                font-size: 2rem;
+                
+            }
+ 
+        }
+
+    }
+}

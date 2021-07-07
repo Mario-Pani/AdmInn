@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/Mario-Pani/AdmInn#readme",
   "devDependencies": {
-    "electron": "^13.1.4"
+    "electron": "^13.1.6"
   }
 }
